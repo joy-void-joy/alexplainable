@@ -30,7 +30,7 @@ Our process for defining an ontology has been to:
 - Extract a graph from the description
 - Have it merge the current graph with the extracted graph.
  
-Doing this, we have been able to extract from 10 images [an ontology that seems to make sense](link to ontology):
+Doing this, we have been able to extract from 10 images [an ontology that seems to make sense](https://github.com/joy-void-joy/alexplainable/blob/main/early_results/ontology]:
 
 ![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/e3dfda63-f3ed-4abd-adbd-d9710ab38e12)
 
