@@ -1,0 +1,216 @@
+├── background
+│   ├── bare trees
+│   ├── buildings
+│   │   ├── gray
+│   │   ├── industrial
+│   │   └── warehouse
+│   ├── construction machinery
+│   │   └── yellow
+│   ├── hills
+│   ├── old building
+│   │   └── sloped roof
+│   ├── rocky cliffs
+│   ├── storage racks
+│   │   └── metal
+│   ├── trees
+│   │   └── green
+│   └── vehicles
+├── backhoe
+│   ├── front
+│   ├── orange
+│   └── scoop attachment
+├── construction cones
+│   └── orange
+├── construction site
+│   ├── concrete building
+│   │   ├── 10-12 stories
+│   │   ├── green safety netting
+│   │   │   └── covering exterior
+│   │   ├── scaffolding
+│   │   └── under construction
+│   ├── construction vehicles
+│   │   ├── cranes
+│   │   ├── lifts
+│   │   └── yellow
+│   ├── high-rise buildings
+│   │   ├── completed
+│   │   │   ├── different colors
+│   │   │   │   ├── red
+│   │   │   │   └── white
+│   │   │   └── residential or office
+│   │   └── various stages of completion
+│   ├── industrial yard
+│   │   ├── concrete surface
+│   │   ├── equipment
+│   │   └── metal beams
+│   ├── street
+│   │   ├── parked cars
+│   │   └── small booth
+│   │       └── security or site management
+│   ├── temporary fence
+│   │   └── signs posted
+│   │       ├── construction company information
+│   │       └── safety warnings
+│   └── workers
+│       └── orange safety vests
+│           └── orange
+├── crane
+│   ├── base
+│   │   ├── footings
+│   │   │   └── anchored
+│   │   └── supports
+│   │       ├── solid
+│   │       └── structural
+│   ├── black
+│   ├── boom arm
+│   │   ├── axles
+│   │   ├── extended boom
+│   │   ├── folded up
+│   │   ├── gears
+│   │   ├── latticed boom
+│   │   │   ├── angled
+│   │   │   ├── long
+│   │   │   ├── metal
+│   │   │   │   ├── lattice
+│   │   │   │   │   ├── dense
+│   │   │   │   │   └── geometric
+│   │   │   │   └── supports
+│   │   │   │       └── crisscrossing
+│   │   │   └── triangular
+│   │   ├── linkages
+│   │   │   └── at base
+│   │   ├── multi-section
+│   │   │   └── 3-4 nested segments
+│   │   │       ├── extendable
+│   │   │       └── retractable
+│   │   ├── not in use
+│   │   ├── pneumatic cylinders
+│   │   │   ├── control boom extension
+│   │   │   └── red
+│   │   ├── rear mounted
+│   │   └── telescoping
+│   ├── cabin
+│   │   ├── machinery housing
+│   │   ├── rectangular
+│   │   └── yellow
+│   ├── cables
+│   ├── chassis
+│   │   ├── lattice of beams
+│   │   ├── suspension elements
+│   │   └── truck chassis
+│   ├── construction crane
+│   │   ├── long boom
+│   │   └── silhouette
+│   ├── glass
+│   ├── gray
+│   ├── lettering
+│   │   ├── CB2900
+│   │   │   └── black
+│   │   ├── R2601W
+│   │   │   └── black
+│   │   └── XCMG logo
+│   │       ├── black
+│   │       └── logo
+│   ├── metal
+│   │   ├── beams
+│   │   ├── framework
+│   │   ├── lattice
+│   │   ├── supports
+│   │   └── trusses
+│   ├── mounted
+│   ├── on construction site
+│   ├── orange
+│   ├── rearview mirror
+│   ├── second arm
+│   │   ├── angled
+│   │   ├── nested
+│   │   ├── shorter
+│   │   └── triangular
+│   ├── silhouette
+│   ├── tank
+│   ├── tower
+│   │   ├── diagonal
+│   │   ├── narrow
+│   │   ├── tall
+│   │   └── vertical
+│   ├── tracks
+│   │   └── iron
+│   │       └── rusty
+│   ├── warning lights
+│   ├── warning lights on outriggers
+│   │   ├── outriggers
+│   │   └── warning lights
+│   ├── wheels
+│   │   ├── front wheels
+│   │   │   └── two wheels
+│   │   │       ├── steering wheels
+│   │   │       └── wheel
+│   │   │           ├── hubcap
+│   │   │           └── tire
+│   │   ├── multiple axles
+│   │   └── rear wheels
+│   │       ├── four wheels
+│   │       │   ├── drive wheels
+│   │       │   ├── two pairs
+│   │       │   └── wheel
+│   │       └── large tires
+│   ├── white
+│   ├── wireframe
+│   ├── work platform
+│   │   ├── at end of boom
+│   │   ├── bucket
+│   │   │   └── yellow
+│   │   └── hydraulic cylinders
+│   │       └── keep bucket level
+│   └── yellow
+├── dump truck
+│   ├── open bed
+│   ├── parked
+│   ├── red
+│   └── two
+├── ground
+│   ├── asphalt
+│   ├── concrete
+│   ├── crushed rock
+│   ├── dirt
+│   ├── gravel
+│   └── snowy surface
+├── landscape
+│   ├── hilly
+│   └── mountainous
+├── skid steer loader
+│   └── Caterpillar 246B
+│       ├── model number
+│       ├── protective cage
+│       │   └── black
+│       ├── tires
+│       │   └── black
+│       └── yellow
+├── sky
+│   ├── blue
+│   ├── clear
+│   ├── clouds
+│   ├── dark blue
+│   ├── dusk
+│   ├── early night
+│   ├── evening
+│   ├── gray
+│   ├── overcast
+│   ├── partly cloudy
+│   └── sunset
+│       └── orange
+├── timestamp
+│   ├── date
+│   └── time
+└── truck
+    ├── Canter
+    ├── Mitsubishi
+    ├── cab
+    │   ├── dirty
+    │   └── worn
+    ├── flatbed
+    ├── license plate
+    ├── partially visible
+    ├── red
+    ├── right side
+    └── white
