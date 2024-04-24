@@ -1,3 +1,4 @@
+# %%
 run_name = "new"
 
 import torch.utils.tensorboard
@@ -10,6 +11,7 @@ from itertools import groupby
 
 from lightning.pytorch.callbacks.early_stopping import EarlyStopping
 from lightning.pytorch.callbacks.model_checkpoint import ModelCheckpoint
+import random
 
 
 import lightning.pytorch.utilities.seed as seed
@@ -143,7 +145,7 @@ class TreeCNN(pl.LightningModule):
 
         def get_constants(is_leaf: bool, is_root: bool) -> "TreeCNN.Constants":
             return TreeCNN.Constants(
-                learning_rate=5e-3,
+                learning_rate=1e-2,
                 batch_size=256,
                 data_dir=tree.end_dir if is_root else tree.start_dir,
                 crop_size=256 if is_leaf and not is_root else 512,
@@ -385,8 +387,8 @@ class TreeCNN(pl.LightningModule):
         return self.validation_step(batch, batch_idx)
 
 
-all = ["disk", "petal", "flower_head", "leaf", "stem", "whole_flower", dataset_name]
-toskip = set(all)
+all = {"disk", "petal", "flower_head", "leaf", "stem", "whole_flower", dataset_name}
+toskip = all
 
 log_dir = pathlib.Path("lightning_logs") / "lightning_logs" / run_name
 log_dir.mkdir(exist_ok=True, parents=True)
@@ -398,6 +400,10 @@ for i in (log_dir).iterdir():
 
 
 def train(model, save_path, stopping_threshold=0.95):
+    pl.seed_everything(
+        random.randint(0, 100000),
+    )
+
     model.setup()
     logger = pl.loggers.TensorBoardLogger(
         "lightning_logs", version=f"{run_name}/{totrain}"
@@ -436,10 +442,6 @@ def train(model, save_path, stopping_threshold=0.95):
     save_best_path.symlink_to(pathlib.Path(model_checkpoint.best_model_path).resolve())
 
 
-pl.seed_everything(
-    1822,
-)
-
 for ix, (totrain, children) in enumerate(tree.tree.items()):
     if totrain in toskip:
         continue
@@ -451,11 +453,7 @@ for ix, (totrain, children) in enumerate(tree.tree.items()):
         inference=False,
     ).to("cuda")
 
-    train(
-        node,
-        save_path=save_dir / f"{totrain}.ckpt",
-        stopping_threshold=0.85 if children else 0.9,
-    )
+    train(node, save_path=save_dir / f"{totrain}.ckpt", stopping_threshold=0.9)
 
 
 n119 = load_frozen(
