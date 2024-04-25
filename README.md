@@ -20,7 +20,6 @@ Our approach is the following:
 
 Early results
 ===
-Code and results will be uploaded over the week, and this section updated.
 
 Defining an ontology
 ---
@@ -30,7 +29,7 @@ Our process for defining an ontology has been to:
 - Extract a graph from the description
 - Have it merge the current graph with the extracted graph.
  
-Doing this, we have been able to extract from 10 images [an ontology that seems to make sense](https://github.com/joy-void-joy/alexplainable/blob/main/early_results/ontology]:
+Doing this, we have been able to extract from 10 images [an ontology that seems to make sense](https://github.com/joy-void-joy/alexplainable/blob/main/early_results/ontology):
 
 ![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/e3dfda63-f3ed-4abd-adbd-d9710ab38e12)
 
@@ -55,8 +54,33 @@ Segmenting seems to work very well with [segment anything](https://github.com/fa
 
 ![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/7c652491-6cc5-4e09-a70b-614d66f3c8d7)
 
-Classification of the segments with LLaVA would be cheap, but has been mixed. Claude however has been able to classify segments fairly well:
+Classification of the segments with LLaVA would be cheap, but has been mixed. Claude has been able to classify segments fairly well, but also makes mistake:
 
 ![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/070ad9c2-9bff-4808-b44b-b77f8557bdb4)
 
-As claude is costly, we expect to do some hand classification for now to have the datasets available for CNN-training
+We have resorted to sorting the segments by hand for this prototype.
+
+Training networks
+---
+We have trained networks to recognize Imagenet class n11939491. We have used the following ontology:
+
+- n119
+  - Flower head
+    - disk
+    - petal
+  - Stem
+  - Leaf
+
+A network is composed of a CNN stack part (three layers of CNN), and of a small (4x1) linear head that decodes the CNN output to a probability. During training, a network learns to recognize its class against others (for instance, the petal network learns to discriminate between petal and non-petals like disks, flower head, n119, stem and leaf).
+We then use the CNN output of a network to feed into the upper ones, the flower head network is only trained on the output of the disk and petal network.
+
+Using this we have been able to attain 75% accuracy on n119 pretty reliably.
+
+Interpreting them
+---
+Feature visualization of most networks seems pretty useless for now:
+
+
+
+Some networks
+
