@@ -90,3 +90,19 @@ While others do show the correct behaviour:
 Visualization of a petal network on the same image
 
 We believe it should be possible to use the PR feedback loop we outline to filter for the networks that have learned the right thing, and then use automatically written plain code to compose them so that we have better understanding of what is happening.
+
+Feature visualization
+---
+We wanted to have feature visualization of the trained networks so that they get automatically pull-requested in a fashion that would look like this:
+
+![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/1cdc0338-db8d-488a-b866-68204fb927d0)
+Example taken from salient-imagenet
+
+In an automated system, LLMs would oversee those PR and integrate them into an automatic branch. Then, when certain benchmarks are passed (like gaining 5% accuracy on a class, for instance), another PR gets posted to merge with master, which humans (or other AIs) have to review.
+
+For now, the resulting feature visualization of the networks we have trained are not interpretable:
+
+![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/9a8805fc-09bd-47c1-94cc-5c4c5858da1d)
+Feature visualization of petal, leaf and flower center disk network. The last one is almost interpretable, showing that it looks for yellow disks
+
+As the petal and disk dataset vary greatly in colors and features, we would need to decompose the ontology further, as outlined above, to refine the different kinds of flowers that are in n119.
