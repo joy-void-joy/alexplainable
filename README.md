@@ -78,9 +78,15 @@ Using this we have been able to attain 75% accuracy on n119 pretty reliably.
 
 Interpreting them
 ---
-Feature visualization of most networks seems pretty useless for now:
+Unfortunately, it seems like some networks have not learned the proper task when reused globally:
 
+![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/59123ad9-d066-482c-8144-21ce8d8dafed)
+![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/1f9fc684-2173-411c-bf27-677783dcd23c)
+Visualization of a disk network on the above input image
 
+While others do show the correct behaviour:
 
-Some networks
+![image](https://github.com/joy-void-joy/alexplainable/assets/56257405/c2fcbc2d-d989-4cac-bc55-371866abed1b)
+Visualization of a petal network on the same image
 
+We believe it should be possible to use the PR feedback loop we outline to filter for the networks that have learned the right thing, and then use automatically written plain code to compose them so that we have better understanding of what is happening.
