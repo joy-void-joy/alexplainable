@@ -2,6 +2,8 @@
 
 # Alexplainable: Constructing an ImageNet recognizer to be explainable
 
+[sorted segmented training dataset and eval dataset to be released]
+
 Alexplainable is an attempt at making a semi-transparent [ImageNet](https://www.image-net.org/) recognizer using [AI-Pull-Requests](lesswrong post). Runs of this project will be had at [https://github.com/joy-void-joy/alexplainable-runs](https://github.com/joy-void-joy/alexplainable-runs).
 
 Bet on [Manifold](https://manifold.markets/news/will-constructability-actually-work) about how much this process will succeed, and like us on [Manifund](manifund) to support our project.
@@ -72,9 +74,11 @@ We have trained networks to recognize Imagenet class n11939491. We have used the
   - Leaf
 
 A network is composed of a CNN stack part (three layers of CNN), and of a small (4x1) linear head that decodes the CNN output to a probability. During training, a network learns to recognize its class against others (for instance, the petal network learns to discriminate between petal and non-petals like disks, flower head, n119, stem and leaf).
-We then use the CNN output of a network to feed into the upper ones, the flower head network is only trained on the output of the disk and petal network.
+We then use the CNN output of a network to feed into the upper ones, the flower head network is only trained on the output of the disk and petal network. 
 
 Using this we have been able to attain 75% accuracy on n119 pretty reliably.
+
+We have tried using AvgPool or MaxPool instead of a linear network, however, we found their learning rate was way too eratic and did not converge quickly. After a quick look at the learned networks, it may be the case that linear networks are needed for networks to converge, and that we can swap to MaxPool after that.
 
 Interpreting them
 ---
