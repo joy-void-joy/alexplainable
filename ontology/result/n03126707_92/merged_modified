@@ -1,0 +1,33 @@
+{
+  "sky": {
+    "gray": {},
+    "clouds": {}
+  },
+  "crane": {
+    "yellow": {},
+    "lattice boom": {},
+    "cables": {},
+    "hook": {},
+    "outriggers": {},
+    "wheels": {},
+    "counterweight": {},
+    "operator cab": {
+      "windows": {}
+    }
+  },
+  "train": {
+    "train cars": {
+      "red": {},
+      "green": {}
+    },
+    "train tracks": {}
+  },
+  "buildings": {},
+  "trees": {
+    "bare": {}
+  },
+  "ground": {
+    "dirt": {},
+    "debris": {}
+  }
+}

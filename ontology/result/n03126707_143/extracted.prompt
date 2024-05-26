@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "The image shows a yellow Caterpillar 246B skid steer loader parked among other construction equipment, likely in an equipment yard or warehouse. The 246B has black tires and a black protective cage around the operator's seat. The model number is clearly visible on the side.\n\nIn the background, there are other pieces of yellow construction machinery and vehicles, though the specific models are not discernible. Some metal storage racks or cages can be seen as well.\n\nThe ground surface appears to be concrete or asphalt. The date stamp on the bottom right of the image indicates it was taken on 20/8/2009 at 10:10.\n\nOverall, the meticulously captured details provide a clear view of this Caterpillar skid steer loader model in a typical storage setting alongside other heavy equipment. The bright yellow color of the machines contrasts with the more subdued surroundings."
+        }
+      ]
+    }
+  ],
+  "system": "Here is a JSON for an image recognizer:\n\n\n{\n  sky: {\n    dirty: {},\n    'clear sky': {\n      blue: {},\n    },\n    clouds: {},\n    sunset: {\n      orange: {},\n    },\n  },\n  crane: {\n    'yellow/orange crane': {\n      yellow: {},\n      orange: {},\n     },\n     'black crane': {\n      black: {},\n    },\n    wireframe: {},\n    glass: {},\n    logo: {},\n    cables: {},\n    'tracks/wheels': {\n      tracks: {\n        iron: {\n          rusty: {},\n        },\n      },\n      wheels: {\n        'two wheels': {\n          wheel: {\n            'tire': {},\n            'hubcap': {}\n          },\n        },\n        'six wheels': {\n          'wheel': {},\n        },\n      },\n    },\n    'rearview mirror': {},\n    tank: {},\n  },\n}\n\n\nPlease propose a JSON of features appearing in the image of the description under the same format (All values must be objects). Ignore any comments that are speculative and are not part of the image.\nBe sure to have a top-level node for crane. Answer only in JSON"
+}

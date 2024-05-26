@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "The image shows a construction site with several high-rise buildings in various stages of completion. In the foreground, there is a large concrete building under construction with scaffolding and green safety netting covering the exterior. The building appears to have around 10-12 stories based on the number of floors visible.\n\nSurrounding the main building are several cranes, including a tall red crane on the right side of the image. The cranes are being used to lift and move construction materials.\n\nIn the background, there are several completed high-rise buildings of different colors, including red and white. These buildings appear to be residential or office buildings.\n\nThe construction site is surrounded by a temporary fence with signs posted, likely indicating safety warnings or construction company information.\n\nOn the street in front of the construction site, there are a few parked cars and what appears to be a small booth, possibly for security or site management.\n\nThe sky is clear and blue, indicating good weather conditions for construction work. Overall, the image depicts a busy urban construction site with multiple projects underway simultaneously, reflecting the rapid development and growth of the area.\n\n\n"
+        }
+      ]
+    }
+  ],
+  "system": "Here is a JSON for an image recognizer:\n\n\n{\n  sky: {\n    dirty: {},\n    'clear sky': {\n      blue: {},\n    },\n    clouds: {},\n    sunset: {\n      orange: {},\n    },\n  },\n  crane: {\n    'yellow/orange crane': {\n      yellow: {},\n      orange: {},\n     },\n     'black crane': {\n      black: {},\n    },\n    wireframe: {},\n    glass: {},\n    logo: {},\n    cables: {},\n    'tracks/wheels': {\n      tracks: {\n        iron: {\n          rusty: {},\n        },\n      },\n      wheels: {\n        'two wheels': {\n          wheel: {\n            'tire': {},\n            'hubcap': {}\n          },\n        },\n        'six wheels': {\n          'wheel': {},\n        },\n      },\n    },\n    'rearview mirror': {},\n    tank: {},\n  },\n}\n\n\nPlease propose a JSON of features appearing in the image of the description under the same format (All values must be objects). Ignore any comments that are speculative and are not part of the image.\nBe sure to have a top-level node for crane. Answer only in JSON"
+}

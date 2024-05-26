@@ -1,0 +1,45 @@
+{
+  "construction site": {
+    "high-rise buildings": {
+      "various stages of completion": {},
+      "completed": {
+        "different colors": {
+          "red": {},
+          "white": {}
+        },
+        "residential or office": {}
+      }
+    },
+    "concrete building": {
+      "under construction": {},
+      "scaffolding": {},
+      "green safety netting": {
+        "covering exterior": {}
+      },
+      "10-12 stories": {}
+    },
+    "temporary fence": {
+      "signs posted": {
+        "safety warnings": {},
+        "construction company information": {}
+      }
+    },
+    "street": {
+      "parked cars": {},
+      "small booth": {
+        "security or site management": {}
+      }
+    }
+  },
+  "crane": {
+    "several cranes": {},
+    "tall red crane": {
+      "on right side": {}
+    },
+    "lifting and moving construction materials": {}
+  },
+  "sky": {
+    "clear": {},
+    "blue": {}
+  }
+}

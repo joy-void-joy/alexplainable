@@ -1,0 +1,39 @@
+{
+  "sky": {
+    "blue": {},
+    "clouds": {},
+    "orange": {}
+  },
+  "crane": {
+    "yellow": {},
+    "orange": {},
+    "black": {},
+    "glass": {},
+    "logo": {},
+    "cables": {},
+    "tracks": {
+      "iron": {},
+      "rusty": {}
+    },
+    "wheels": {
+      "tire": {},
+      "hubcap": {}
+    },
+    "rearview mirror": {},
+    "tank": {},
+    "lattice boom": {},
+    "outriggers": {
+      "extended": {}
+    },
+    "counterweights": {
+      "stacked": {}
+    },
+    "on flatbed truck": {}
+  },
+  "buildings": {
+    "in background": {}
+  },
+  "trees": {
+    "bare": {}
+  }
+}

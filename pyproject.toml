@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "supercoder"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+anthropic = "^0.20.0"
+opencv_python = "^4.7.0.72"
+segment-anything = {git = "https://github.com/facebookresearch/segment-anything.git"}
+setuptools = "^69.2.0"
+treelib = "^1.7.0"
+tabulate = "^0.9.0"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+pytorch-lightning = "^2.2.1"
+lightning = "^2.2.1"
+tensorboard = "^2.16.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.2"
+ipykernel = "^6.29.3"
+devtools = "^0.12.2"
+natsort = "^8.4.0"
+chaid = "^5.4.1"
+torch-tb-profiler = "^0.4.3"
+more-itertools = "^10.2.0"
+tensorboard-plugin-profile = "^2.15.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,189 @@
+{
+  "crane": {
+    "yellow": {},
+    "orange": {},
+    "gray": {},
+    "black": {},
+    "metal": {
+      "trusses": {},
+      "beams": {},
+      "supports": {},
+      "framework": {},
+      "lattice": {}
+    },
+    "wheels": {
+      "front wheels": {
+        "two wheels": {
+          "steering wheels": {},
+          "wheel": {
+            "tire": {},
+            "hubcap": {}
+          }
+        }
+      },
+      "rear wheels": {
+        "four wheels": {
+          "drive wheels": {},
+          "two pairs": {},
+          "wheel": {}
+        },
+        "large tires": {}
+      },
+      "multiple axles": {}
+    },
+    "chassis": {
+      "lattice of beams": {},
+      "suspension elements": {},
+      "truck chassis": {}
+    },
+    "boom arm": {
+      "rear mounted": {},
+      "telescoping": {},
+      "multi-section": {
+        "3-4 nested segments": {
+          "extendable": {},
+          "retractable": {}
+        }
+      },
+      "pneumatic cylinders": {
+        "red": {},
+        "control boom extension": {}
+      },
+      "gears": {},
+      "axles": {},
+      "linkages": {
+        "at base": {}
+      },
+      "latticed boom": {
+        "long": {},
+        "angled": {},
+        "triangular": {},
+        "metal": {
+          "supports": {
+            "crisscrossing": {}
+          },
+          "lattice": {
+            "dense": {},
+            "geometric": {}
+          }
+        }
+      },
+      "extended boom": {}
+    },
+    "second arm": {
+      "shorter": {},
+      "angled": {},
+      "triangular": {},
+      "nested": {}
+    },
+    "work platform": {
+      "at end of boom": {},
+      "bucket": {
+        "yellow": {}
+      },
+      "hydraulic cylinders": {
+        "keep bucket level": {}
+      }
+    },
+    "cabin": {
+      "yellow": {},
+      "rectangular": {},
+      "machinery housing": {}
+    },
+    "warning lights on outriggers": {
+      "warning lights": {},
+      "outriggers": {}
+    },
+    "wireframe": {},
+    "glass": {},
+    "XCMG logo": {
+      "logo": {},
+      "black lettering": {}
+    },
+    "cables": {},
+    "tracks": {
+      "iron": {
+        "rusty": {}
+      }
+    },
+    "rearview mirror": {},
+    "tank": {},
+    "base": {
+      "supports": {
+        "solid": {},
+        "solid-looking": {},
+        "structural": {}
+      },
+      "footings": {
+        "anchored": {}
+      }
+    },
+    "tower": {
+      "tall": {},
+      "narrow": {},
+      "vertical": {},
+      "diagonal": {}
+    },
+    "silhouette": {},
+    "height": {},
+    "scale": {},
+    "massive": {},
+    "several cranes": {},
+    "tall red crane": {
+      "on right side": {}
+    }
+  },
+  "construction site": {
+    "high-rise buildings": {
+      "various stages of completion": {},
+      "completed": {
+        "different colors": {
+          "red": {},
+          "white": {}
+        },
+        "residential or office": {}
+      }
+    },
+    "concrete building": {
+      "under construction": {},
+      "scaffolding": {},
+      "green safety netting": {
+        "covering exterior": {}
+      },
+      "10-12 stories": {}
+    },
+    "temporary fence": {
+      "signs posted": {
+        "safety warnings": {},
+        "construction company information": {}
+      }
+    },
+    "street": {
+      "parked cars": {},
+      "small booth": {
+        "security or site management": {}
+      }
+    }
+  },
+  "sky": {
+    "blue": {},
+    "clear": {},
+    "dirty": {},
+    "clouds": {},
+    "partly cloudy": {},
+    "sunset": {
+      "orange": {}
+    },
+    "overcast": {}
+  },
+  "background": {
+    "bare trees": {},
+    "old building": {
+      "sloped roof": {}
+    }
+  },
+  "ground": {
+    "dirt": {},
+    "gravel": {}
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "crane": {
+    "yellow": {},
+    "orange": {},
+    "gray": {},
+    "black": {},
+    "white": {},
+    "metal": {
+      "trusses": {},
+      "beams": {},
+      "supports": {},
+      "framework": {},
+      "lattice": {}
+    },
+    "wheels": {
+      "front wheels": {
+        "two wheels": {
+          "steering wheels": {},
+          "wheel": {
+            "tire": {},
+            "hubcap": {}
+          }
+        }
+      },
+      "rear wheels": {
+        "four wheels": {
+          "drive wheels": {},
+          "two pairs": {},
+          "wheel": {}
+        },
+        "large tires": {}
+      },
+      "multiple axles": {}
+    },
+    "chassis": {
+      "lattice of beams": {},
+      "suspension elements": {},
+      "truck chassis": {}
+    },
+    "boom arm": {
+      "rear mounted": {},
+      "telescoping": {},
+      "multi-section": {
+        "3-4 nested segments": {
+          "extendable": {},
+          "retractable": {}
+        }
+      },
+      "pneumatic cylinders": {
+        "red": {},
+        "control boom extension": {}
+      },
+      "gears": {},
+      "axles": {},
+      "linkages": {
+        "at base": {}
+      },
+      "latticed boom": {
+        "long": {},
+        "angled": {},
+        "triangular": {},
+        "metal": {
+          "supports": {
+            "crisscrossing": {}
+          },
+          "lattice": {
+            "dense": {},
+            "geometric": {}
+          }
+        }
+      },
+      "extended boom": {},
+      "folded up": {},
+      "not in use": {}
+    },
+    "second arm": {
+      "shorter": {},
+      "angled": {},
+      "triangular": {},
+      "nested": {}
+    },
+    "work platform": {
+      "at end of boom": {},
+      "bucket": {
+        "yellow": {}
+      },
+      "hydraulic cylinders": {
+        "keep bucket level": {}
+      }
+    },
+    "cabin": {
+      "yellow": {},
+      "rectangular": {},
+      "machinery housing": {}
+    },
+    "warning lights": {},
+    "warning lights on outriggers": {
+      "warning lights": {},
+      "outriggers": {}
+    },
+    "wireframe": {},
+    "glass": {},
+    "cables": {},
+    "tracks": {
+      "iron": {
+        "rusty": {}
+      }
+    },
+    "rearview mirror": {},
+    "tank": {},
+    "base": {
+      "supports": {
+        "solid": {},
+        "structural": {}
+      },
+      "footings": {
+        "anchored": {}
+      }
+    },
+    "tower": {
+      "tall": {},
+      "narrow": {},
+      "vertical": {},
+      "diagonal": {}
+    },
+    "silhouette": {},
+    "mounted": {},
+    "construction crane": {
+      "silhouette": {},
+      "long boom": {}
+    },
+    "on construction site": {},
+    "lettering": {
+      "R2601W": {
+        "black": {}
+      },
+      "CB2900": {
+        "black": {}
+      },
+      "XCMG logo": {
+        "logo": {},
+        "black": {}
+      }
+    }
+  },
+  "construction site": {
+    "high-rise buildings": {
+      "various stages of completion": {},
+      "completed": {
+        "different colors": {
+          "red": {},
+          "white": {}
+        },
+        "residential or office": {}
+      }
+    },
+    "concrete building": {
+      "under construction": {},
+      "scaffolding": {},
+      "green safety netting": {
+        "covering exterior": {}
+      },
+      "10-12 stories": {}
+    },
+    "temporary fence": {
+      "signs posted": {
+        "safety warnings": {},
+        "construction company information": {}
+      }
+    },
+    "street": {
+      "parked cars": {},
+      "small booth": {
+        "security or site management": {}
+      }
+    },
+    "construction vehicles": {
+      "yellow": {},
+      "cranes": {},
+      "lifts": {}
+    },
+    "workers": {
+      "orange safety vests": {
+        "orange": {}
+      }
+    },
+    "industrial yard": {
+      "metal beams": {},
+      "equipment": {},
+      "concrete surface": {}
+    }
+  },
+  "sky": {
+    "blue": {},
+    "clear": {},
+    "clouds": {},
+    "partly cloudy": {},
+    "sunset": {
+      "orange": {}
+    },
+    "overcast": {},
+    "gray": {},
+    "dark blue": {},
+    "evening": {},
+    "dusk": {},
+    "early night": {}
+  },
+  "background": {
+    "bare trees": {},
+    "old building": {
+      "sloped roof": {}
+    },
+    "construction machinery": {
+      "yellow": {}
+    },
+    "vehicles": {},
+    "storage racks": {
+      "metal": {}
+    },
+    "buildings": {
+      "industrial": {},
+      "warehouse": {},
+      "gray": {}
+    },
+    "trees": {
+      "green": {}
+    },
+    "rocky cliffs": {},
+    "hills": {}
+  },
+  "ground": {
+    "dirt": {},
+    "gravel": {},
+    "snowy surface": {},
+    "concrete": {},
+    "asphalt": {},
+    "crushed rock": {}
+  },
+  "dump truck": {
+    "red": {},
+    "open bed": {},
+    "two": {},
+    "parked": {}
+  },
+  "backhoe": {
+    "orange": {},
+    "scoop attachment": {},
+    "front": {}
+  },
+  "truck": {
+    "red": {},
+    "partially visible": {},
+    "right side": {},
+    "white": {},
+    "Mitsubishi": {},
+    "Canter": {},
+    "flatbed": {},
+    "cab": {
+      "worn": {},
+      "dirty": {}
+    },
+    "license plate": {}
+  },
+  "timestamp": {
+    "date": {},
+    "time": {}
+  },
+  "skid steer loader": {
+    "Caterpillar 246B": {
+      "yellow": {},
+      "model number": {},
+      "protective cage": {
+        "black": {}
+      },
+      "tires": {
+        "black": {}
+      }
+    }
+  },
+  "construction cones": {
+    "orange": {}
+  },
+  "landscape": {
+    "mountainous": {},
+    "hilly": {}
+  }
+}

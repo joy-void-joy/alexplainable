@@ -1,0 +1,33 @@
+{
+  "crane": {
+    "skid steer loader": {
+      "Caterpillar 246B": {
+        "yellow": {},
+        "model number": {},
+        "protective cage": {
+          "black": {}
+        },
+        "tires": {
+          "black": {}
+        }
+      }
+    }
+  },
+  "background": {
+    "construction machinery": {
+      "yellow": {}
+    },
+    "vehicles": {},
+    "storage racks": {
+      "metal": {}
+    }
+  },
+  "ground": {
+    "concrete": {},
+    "asphalt": {}
+  },
+  "timestamp": {
+    "date": {},
+    "time": {}
+  }
+}

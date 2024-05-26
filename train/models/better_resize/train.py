@@ -1,5 +1,5 @@
 # %%
-run_name = "new"
+run_name = "better_resize"
 
 import torch.utils.tensorboard
 from collections import OrderedDict
@@ -48,9 +48,10 @@ def shuffled(x):
     return random.sample(x, len(x))
 
 
-segments_dir = pathlib.Path("./data/segments/")
-train_dir = pathlib.Path("./data/train/")
-
+data_dir = pathlib.Path("/home/epiphanie/job/onit/supercoder/n11939491/segments/sorted")
+all_classes_dir = pathlib.Path(
+    "/mnt/milchior/serdaylv/data/imagenet/ILSVRC/Data/CLS-LOC/train/"
+)
 save_dir = pathlib.Path("./models/") / run_name
 save_dir.mkdir(exist_ok=True, parents=True)
 (save_dir / "best").mkdir(exist_ok=True, parents=True)
@@ -72,8 +73,8 @@ tree = Tree(
         "stem": [],
         dataset_name: ["flower_head", "stem", "leaf"],
     },
-    start_dir=segments_dir,
-    end_dir=train_dir,
+    start_dir=data_dir,
+    end_dir=all_classes_dir,
     save_dir=save_dir,
 )
 
@@ -120,7 +121,6 @@ class TreeCNN(pl.LightningModule):
         inference: bool = False,
     ):
         super().__init__()
-        self.save_hyperparameters()
 
         best = ""
 
@@ -311,7 +311,7 @@ class TreeCNN(pl.LightningModule):
             test = balance_dataset(all_test)
 
         self.dataset = TreeCNN.Dataset(
-            train=train, val=val, test=all_test, all_test=all_test
+            train=train, val=val, test=test, all_test=all_test
         )
 
     def dataloader(self, type, **kwargs):
@@ -340,22 +340,25 @@ class TreeCNN(pl.LightningModule):
                 features = x
             else:
                 stack = [
-                    torchvision.transforms.functional.center_crop(
-                        cnn.forward(x, cnn=True, transform=False), (6, 6)
-                    )
+                    cnn.forward(x, cnn=True, transform=False)
                     for cnn in self.cnn_children.values()
                 ]
+                max_x = max([i.shape[-2] for i in stack] + [7])
+                max_y = max([i.shape[-1] for i in stack] + [7])
 
-                features = (
-                    torch.stack(
-                        stack,
-                        dim=1,
-                    ).squeeze(2)
-                    if self.cnn_children
-                    else x
-                )
+                stack = [
+                    torchvision.transforms.functional.center_crop(i, (max_x, max_y))
+                    for i in stack
+                ]
 
-        return self.model[: (-1 if cnn else None)](features)
+                features = torch.stack(
+                    stack,
+                    dim=1,
+                ).squeeze(2)
+
+        result = self.model[: (-1 if cnn else None)](features)
+
+        return result.squeeze(dim=(2, 3)) if cnn else result
 
     def training_step(self, batch, batch_idx):
         x, y = batch
@@ -388,11 +391,12 @@ class TreeCNN(pl.LightningModule):
 
 
 all = {"disk", "petal", "flower_head", "leaf", "stem", "whole_flower", dataset_name}
-toskip = all
+toskip = all - {dataset_name}
 
 log_dir = pathlib.Path("lightning_logs") / "lightning_logs" / run_name
 log_dir.mkdir(exist_ok=True, parents=True)
-(save_dir / "train.py").write_text(pathlib.Path(__file__).read_text())
+if toskip != all:
+    (save_dir / "train.py").write_text(pathlib.Path(__file__).read_text())
 
 for i in (log_dir).iterdir():
     if i.name not in toskip:
@@ -466,3 +470,56 @@ n119 = load_frozen(
 )
 trainer = pl.Trainer()
 print(trainer.test(n119))
+
+
+# %%
+import torch
+
+from lucent.optvis import render, param, transform, objectives
+from lucent.modelzoo.util import get_model_layers
+from lucent.modelzoo import inceptionv1
+import pathlib
+
+from rich.pretty import pprint
+
+# %%
+classname = "disk"
+from IPython.display import display
+from matplotlib import pyplot as plt
+import seaborn as sns
+
+
+model = load_frozen(
+    model=TreeCNN,
+    ckpt=save_dir / f"{classname}.ckpt",
+    tree=tree.model_copy(update={"save_dir": save_dir}),
+    name=classname,
+    is_root=True,
+    _req_grad=True,
+).to("cuda")
+
+gen = natsorted(
+    pathlib.Path(
+        f"/mnt/milchior/serdaylv/data/imagenet/ILSVRC/Data/CLS-LOC/val/{dataset_name}"
+    ).iterdir()
+)
+
+im = torchvision.transforms.functional.center_crop(Image.open(gen[29]), (512, 512))
+display(im)
+hm = model(im, transform=True, cnn=True).squeeze(dim=(0, 1)).cpu().detach().numpy()
+sns.heatmap(hm, vmax=6, vmin=0, cmap="viridis", square=True)
+model(im, transform=True, cnn=False)
+
+# %%
+a = render.render_vis(
+    model,
+    "model_cnn:0",
+    verbose=True,
+    progress=True,
+    fixed_image_size=(512, 512),
+    show_inline=False,
+    show_image=False,
+    thresholds=(512,),
+)
+
+display(torchvision.transforms.functional.to_pil_image(a[0][0]))

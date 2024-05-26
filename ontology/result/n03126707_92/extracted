@@ -1,0 +1,60 @@
+{
+  "sky": {
+    "blue": {},
+    "clouds": {},
+    "partly cloudy": {}
+  },
+  "crane": {
+    "metal": {},
+    "tower": {
+      "tall": {},
+      "narrow": {},
+      "diagonal": {}
+    },
+    "cabin": {
+      "yellow": {},
+      "rectangular": {},
+      "machinery housing": {}
+    },
+    "boom": {
+      "latticed": {},
+      "long": {},
+      "angled": {},
+      "triangular": {},
+      "metal": {
+        "supports": {
+          "crisscrossing": {}
+        },
+        "lattice": {
+          "dense": {},
+          "geometric": {}
+        }
+      }
+    },
+    "second arm": {
+      "shorter": {},
+      "angled": {},
+      "triangular": {},
+      "nested": {}
+    },
+    "base": {
+      "supports": {
+        "solid": {}
+      },
+      "footings": {
+        "anchored": {}
+      }
+    },
+    "silhouette": {},
+    "impressive": {},
+    "industrial": {},
+    "complex": {},
+    "geometric": {},
+    "framework": {
+      "metal": {}
+    },
+    "massive": {},
+    "height": {},
+    "scale": {}
+  }
+}

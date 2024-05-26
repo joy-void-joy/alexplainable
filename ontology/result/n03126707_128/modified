@@ -1,0 +1,63 @@
+{
+  "crane": {
+    "dragline excavator": {
+      "boom": {
+        "lattice structure": {
+          "triangular truss design": {}
+        },
+        "long reach": {},
+        "cable suspended": {}
+      },
+      "bucket": {
+        "large capacity": {},
+        "dragline bucket": {},
+        "teeth": {}
+      },
+      "cab": {
+        "enclosed": {},
+        "operator controls": {}
+      },
+      "tracks": {
+        "continuous tracks": {},
+        "large surface area": {},
+        "enables mobility": {}
+      },
+      "counterweight": {
+        "rear mounted": {},
+        "provides stability": {}
+      },
+      "diesel powered": {},
+      "mining equipment": {},
+      "stripped overburden removal": {},
+      "exposes coal seams": {}
+    }
+  },
+  "job site": {
+    "surface mine": {
+      "open pit": {},
+      "coal mine": {}
+    },
+    "overburden": {
+      "rock": {},
+      "soil": {}
+    },
+    "exposed coal seams": {},
+    "haul roads": {},
+    "terraced slopes": {}
+  },
+  "other equipment": {
+    "haul trucks": {
+      "off-highway trucks": {},
+      "large capacity": {},
+      "transport overburden": {}
+    },
+    "bulldozer": {},
+    "wheel loader": {}
+  },
+  "winter conditions": {
+    "snow": {
+      "covering ground": {}
+    },
+    "overcast sky": {}
+  }
+}

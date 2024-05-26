@@ -1,0 +1,36 @@
+{
+  "sky": {
+    "dark blue": {},
+    "evening": {},
+    "dusk": {},
+    "early night": {}
+  },
+  "crane": {
+    "construction crane": {
+      "silhouette": {},
+      "long boom": {}
+    },
+    "on construction site": {}
+  },
+  "background": {
+    "rocky cliffs": {},
+    "hills": {}
+  },
+  "landscape": {
+    "mountainous": {},
+    "hilly": {}
+  },
+  "composition": {
+    "striking": {},
+    "geometric lines": {},
+    "organic shapes": {},
+    "smooth gradient": {}
+  },
+  "overall feel": {
+    "moody": {},
+    "atmospheric": {}
+  },
+  "tones": {
+    "dark": {}
+  }
+}

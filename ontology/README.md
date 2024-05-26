@@ -1,0 +1,1 @@
+This is a prototype for constructing an ontology with Claude to recognize ImageNet class n03126707. We have started with result/initial, and itterated on them using ontology.py

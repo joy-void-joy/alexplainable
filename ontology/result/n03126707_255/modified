@@ -1,0 +1,48 @@
+{
+  "drilling rig": {
+    "tall vertical mast": {
+      "lattice structure": {},
+      "yellow color": {}
+    },
+    "multiple levels": {
+      "platforms": {},
+      "stairs": {},
+      "railings": {}
+    },
+    "mounted on wheeled base": {},
+    "used for drilling operations": {},
+    "complex machinery": {
+      "cables": {},
+      "winches": {},
+      "pulleys": {}
+    },
+    "safety features": {
+      "warning signs": {},
+      "lights": {}
+    }
+  },
+  "industrial setting": {
+    "construction site": {},
+    "other heavy equipment nearby": {
+      "cranes": {},
+      "trucks": {}
+    },
+    "implies oil/gas exploration": {}
+  },
+  "clear blue sky background": {
+    "emphasizes height of rig": {}
+  },
+  "composition": {
+    "rig centered in frame": {},
+    "vertical orientation": {
+      "accentuates tall, narrow shape": {}
+    },
+    "symmetrical balance": {}
+  },
+  "sense of scale": {
+    "workers visible for size reference": {
+      "highlights massive size": {}
+    },
+    "dwarfs surrounding equipment": {}
+  }
+}

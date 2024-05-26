@@ -1,0 +1,45 @@
+{
+  "sky": {
+    "overcast": {},
+    "gray": {}
+  },
+  "crane": {
+    "yellow": {},
+    "extendable arm": {},
+    "angled": {}
+  },
+  "dump truck": {
+    "red": {},
+    "open bed": {},
+    "two": {},
+    "parked": {}
+  },
+  "backhoe": {
+    "orange": {},
+    "scoop attachment": {},
+    "front": {}
+  },
+  "truck": {
+    "red": {},
+    "partially visible": {},
+    "right side": {}
+  },
+  "surface": {
+    "snowy": {}
+  },
+  "setting": {
+    "remote": {},
+    "job site": {},
+    "no structures": {}
+  },
+  "weather": {
+    "cold": {},
+    "wintry": {}
+  },
+  "vehicles": {
+    "parked": {},
+    "idle": {},
+    "heavy machinery": {},
+    "specialized": {}
+  }
+}

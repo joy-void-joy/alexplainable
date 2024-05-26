@@ -1,0 +1,56 @@
+{
+  "sky": {
+    "clear sky": {
+      "blue": {}
+    }
+  },
+  "construction site": {
+    "building under construction": {
+      "concrete": {},
+      "scaffolding": {},
+      "green netting": {}
+    },
+    "cranes": [
+      {
+        "tower crane": {
+          "yellow/orange crane": {
+            "yellow": {},
+            "orange": {}
+          },
+          "lattice boom": {},
+          "counterweights": {},
+          "cab": {},
+          "jib": {}
+        }
+      },
+      {
+        "luffing jib crane": {
+          "yellow/orange crane": {
+            "yellow": {},
+            "orange": {}
+          },
+          "lattice boom": {},
+          "luffing jib": {}
+        }
+      }
+    ],
+    "construction fence": {
+      "green fence": {}
+    },
+    "construction signs": {},
+    "portable toilets": {
+      "blue portable toilet": {}
+    }
+  },
+  "street": {
+    "cars": {},
+    "road markings": {}
+  },
+  "buildings": {
+    "apartment buildings": {
+      "red brick": {},
+      "balconies": {},
+      "windows": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "sky": {
+    "clear sky": {
+      "blue": {}
+    }
+  },
+  "crane": {
+    "yellow crane": {
+      "yellow": {},
+      "lettering": {
+        "R2601W": {
+          "black": {}
+        }
+      }
+    },
+    "white crane": {
+      "white": {},
+      "latticed metal": {}
+    },
+    "boom": {},
+    "tower": {}
+  },
+  "construction vehicles": {
+    "yellow": {},
+    "cranes": {},
+    "lifts": {}
+  },
+  "workers": {
+    "orange safety vests": {
+      "orange": {}
+    }
+  },
+  "industrial yard": {
+    "metal beams": {},
+    "equipment": {},
+    "concrete surface": {}
+  }
+}

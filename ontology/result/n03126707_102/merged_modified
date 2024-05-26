@@ -1,0 +1,37 @@
+{
+  "crane": {
+    "yellow color": {},
+    "large size": {},
+    "lattice boom": {
+      "multiple sections": {}
+    },
+    "operator cab": {
+      "windows": {}
+    },
+    "outriggers": {},
+    "hook block": {
+      "at end of boom": {},
+      "multiple sheaves": {}
+    },
+    "counterweights": {
+      "at rear of crane": {}
+    },
+    "on tracks": {},
+    "cables": {
+      "running along boom": {}
+    },
+    "warning lights": {
+      "on cab": {}
+    },
+    "ladders": {
+      "on boom": {}
+    },
+    "engine compartment": {}
+  },
+  "train tracks": {
+    "multiple sets": {},
+    "perpendicular to crane": {}
+  },
+  "blue sky": {},
+  "clouds": {}
+}

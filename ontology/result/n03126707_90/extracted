@@ -1,0 +1,29 @@
+{
+  "sky": {
+    "overcast": {}
+  },
+  "crane": {
+    "yellow crane": {
+      "yellow": {}
+    },
+    "latticed boom": {},
+    "extended boom": {},
+    "XCMG logo": {
+      "black lettering": {}
+    },
+    "truck chassis": {
+      "multiple axles": {},
+      "large tires": {}
+    }
+  },
+  "background": {
+    "bare trees": {},
+    "old building": {
+      "sloped roof": {}
+    }
+  },
+  "ground": {
+    "dirt": {},
+    "gravel": {}
+  }
+}

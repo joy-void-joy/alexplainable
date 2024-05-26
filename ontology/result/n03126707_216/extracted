@@ -1,0 +1,42 @@
+{
+  "truck": {
+    "white": {},
+    "Mitsubishi": {},
+    "Canter": {},
+    "flatbed": {},
+    "cab": {
+      "worn": {},
+      "dirty": {}
+    },
+    "license plate": {}
+  },
+  "crane": {
+    "yellow": {},
+    "mounted": {},
+    "folded up": {},
+    "not in use": {},
+    "arm": {
+      "text": {
+        "CB2900": {},
+        "black": {}
+      }
+    }
+  },
+  "background": {
+    "buildings": {
+      "industrial": {},
+      "warehouse": {},
+      "gray": {}
+    },
+    "trees": {
+      "green": {}
+    }
+  },
+  "ground": {
+    "gravel": {},
+    "crushed rock": {}
+  },
+  "construction cones": {
+    "orange": {}
+  }
+}

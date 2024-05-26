@@ -1,0 +1,42 @@
+{
+  "sky": {
+    "gray": {},
+    "clouds": {}
+  },
+  "crane": {
+    "yellow": {},
+    "lattice boom": {
+      "long": {},
+      "angled upwards": {}
+    },
+    "cables": {},
+    "hook": {},
+    "outriggers": {
+      "extended": {}
+    },
+    "wheels": {
+      "tires": {}
+    },
+    "counterweight": {},
+    "operator cab": {
+      "glass windows": {}
+    },
+    "on train tracks": {},
+    "lifting object": {}
+  },
+  "train": {
+    "train cars": {
+      "red": {},
+      "green": {}
+    },
+    "train tracks": {}
+  },
+  "construction site": {
+    "buildings": {},
+    "bare trees": {}
+  },
+  "ground": {
+    "dirt": {},
+    "debris": {}
+  }
+}

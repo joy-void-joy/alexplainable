@@ -1,0 +1,44 @@
+{
+  "truck": {
+    "flatbed truck": {
+      "cab-over design": {},
+      "flatbed body": {
+        "mounted crane": {
+          "telescopic boom": {},
+          "hydraulic operation": {},
+          "lifts and moves heavy loads": {}
+        },
+        "carries various cargo": {},
+        "tie-down points": {}
+      },
+      "dual rear axles": {
+        "increased weight capacity": {},
+        "improved stability": {}
+      },
+      "diesel engine": {},
+      "commercial vehicle": {},
+      "used in construction": {},
+      "material transport": {},
+      "heavy hauling": {}
+    }
+  },
+  "job site": {
+    "construction site": {},
+    "industrial yard": {},
+    "delivery location": {}
+  },
+  "other equipment": {
+    "excavators": {},
+    "loaders": {},
+    "forklifts": {},
+    "generators": {},
+    "air compressors": {}
+  },
+  "company branding": {
+    "company name on truck": {
+      "'CB2900'": {}
+    },
+    "implies fleet vehicle": {},
+    "suggests construction or logistics company": {}
+  }
+}

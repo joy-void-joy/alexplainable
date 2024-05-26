@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "The image shows a large yellow crane truck parked on what appears to be an industrial or construction site. The crane has a long, latticed boom extending diagonally upwards. The truck chassis has multiple axles and large tires for stability and heavy-duty use.\n\nThe crane truck is painted a bright yellow color, likely for high visibility on job sites. The brand name \"XCMG\" is prominently displayed on the side of the crane arm in black lettering, indicating the manufacturer of the equipment.\n\nIn the background, there are some bare trees and what seems to be an old, possibly abandoned building with a sloped roof. The sky appears hazy or overcast.\n\nThe ground around the crane truck looks like compacted dirt or gravel, typical of a work site. The crane is positioned in an open area, presumably to allow room for maneuvering and operating the extended boom.\n\nOverall, the image depicts a heavy-duty piece of construction machinery in a job site setting, ready for lifting and moving heavy materials or equipment. The bright yellow color of the crane stands out against the drab surroundings.\n\n\n"
+        }
+      ]
+    }
+  ],
+  "system": "Here is a JSON for an image recognizer:\n\n\n{\n  sky: {\n    dirty: {},\n    'clear sky': {\n      blue: {},\n    },\n    clouds: {},\n    sunset: {\n      orange: {},\n    },\n  },\n  crane: {\n    'yellow/orange crane': {\n      yellow: {},\n      orange: {},\n     },\n     'black crane': {\n      black: {},\n    },\n    wireframe: {},\n    glass: {},\n    logo: {},\n    cables: {},\n    'tracks/wheels': {\n      tracks: {\n        iron: {\n          rusty: {},\n        },\n      },\n      wheels: {\n        'two wheels': {\n          wheel: {\n            'tire': {},\n            'hubcap': {}\n          },\n        },\n        'six wheels': {\n          'wheel': {},\n        },\n      },\n    },\n    'rearview mirror': {},\n    tank: {},\n  },\n}\n\n\nPlease propose a JSON of features appearing in the image of the description under the same format (All values must be objects). Ignore any comments that are speculative and are not part of the image.\nBe sure to have a top-level node for crane. Answer only in JSON"
+}

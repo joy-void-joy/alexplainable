@@ -1,0 +1,66 @@
+Here is the updated JSON ontology incorporating the key features of the skid steer loader shown in the image:
+
+{
+  "crane": {
+    "skid steer loader": {
+      "compact size": {},
+      "rigid frame": {},
+      "lift arms": {
+        "parallel linkage": {},
+        "raise and lower bucket": {}
+      },
+      "bucket": {
+        "front mounted": {},
+        "multi-purpose": {
+          "material handling": {},
+          "digging": {},
+          "grading": {}
+        }
+      },
+      "cab": {
+        "enclosed": {},
+        "rollover protection": {},
+        "operator seat and controls": {}
+      },
+      "wheels": {
+        "four wheels": {},
+        "rubber tires": {},
+        "skid steering": {
+          "independent wheel speeds": {},
+          "enables tight turning": {}
+        }
+      },
+      "hydraulic system": {
+        "powers lift arms": {},
+        "powers attachments": {}
+      },
+      "diesel engine": {
+        "rear mounted": {}
+      },
+      "quick attach system": {
+        "enables attachment changes": {}
+      },
+      "versatile machine": {},
+      "common in construction": {},
+      "landscaping applications": {},
+      "agricultural uses": {}
+    }
+  },
+  "job site": {
+    "construction site": {},
+    "landscaping project": {},
+    "farm": {}
+  },
+  "other equipment": {
+    "attachments": {
+      "pallet forks": {},
+      "auger": {},
+      "trencher": {},
+      "broom": {},
+      "snow blower": {}
+    },
+    "trucks": {},
+    "excavators": {},
+    "loaders": {}
+  }
+}

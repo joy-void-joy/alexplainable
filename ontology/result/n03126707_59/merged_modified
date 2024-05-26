@@ -1,0 +1,45 @@
+Here is the refactored JSON for image recognition:
+
+{
+  "sky": {
+    "blue": {},
+    "clouds": {},
+    "orange": {}
+  },
+  "crane": {
+    "yellow": {},
+    "orange": {},
+    "black": {},
+    "glass": {},
+    "logo": {},
+    "cables": {},
+    "tracks": {
+      "iron": {
+        "rusty": {}
+      }
+    },
+    "wheels": {
+      "tire": {},
+      "hubcap": {}
+    },
+    "rearview mirror": {},
+    "tank": {}
+  },
+  "lego crane": {
+    "yellow": {},
+    "black": {},
+    "gray": {},
+    "red lights": {},
+    "boom arm": {},
+    "operator cab": {},
+    "counterweight": {},
+    "outriggers": {},
+    "lego technic parts": {
+      "beams": {},
+      "gears": {},
+      "pins": {},
+      "axles": {},
+      "connectors": {}
+    }
+  }
+}

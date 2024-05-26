@@ -1,0 +1,50 @@
+{
+  "construction crane": {
+    "tower crane": {
+      "tall vertical mast": {},
+      "horizontal jib": {
+        "carries load": {}
+      },
+      "counter-jib": {
+        "holds counterweights": {}
+      },
+      "cabin at top": {
+        "houses operator": {}
+      },
+      "mounted on concrete base": {},
+      "lifts heavy materials": {},
+      "rotates to move loads": {}
+    },
+    "silhouette against sky": {
+      "nighttime scene": {},
+      "dark blue sky": {}
+    },
+    "construction site setting": {
+      "unfinished building structure": {},
+      "implies urban development": {}
+    }
+  },
+  "lighting conditions": {
+    "low light": {},
+    "crane illuminated": {
+      "warning lights": {},
+      "for visibility and safety": {}
+    }
+  },
+  "composition": {
+    "crane centered in frame": {},
+    "vertical orientation": {},
+    "negative space of sky": {
+      "emphasizes scale and height": {}
+    },
+    "unfinished building in foreground": {
+      "adds context": {},
+      "implies ongoing construction": {}
+    }
+  },
+  "mood": {
+    "still and quiet": {},
+    "sense of anticipation": {},
+    "progress halted momentarily": {}
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sky": {
+    "dirty": {},
+    "clear sky": {
+      "blue": {}
+    },
+    "clouds": {},
+    "sunset": {
+      "orange": {}
+    }
+  },
+  "crane": {
+    "yellow/orange crane": {
+      "yellow": {},
+      "orange": {}
+    },
+    "black crane": {
+      "black": {}
+    },
+    "wireframe": {},
+    "glass": {},
+    "logo": {},
+    "cables": {},
+    "tracks/wheels": {
+      "tracks": {
+        "iron": {
+          "rusty": {}
+        }
+      },
+      "wheels": {
+        "two wheels": {
+          "wheel": {
+            "tire": {},
+            "hubcap": {}
+          }
+        },
+        "six wheels": {
+          "wheel": {}
+        },
+        "eight wheels": {
+          "wheel": {}
+        }
+      }
+    },
+    "rearview mirror": {},
+    "tank": {},
+    "boom": {
+      "lattice boom": {}
+    },
+    "outriggers": {
+      "extended": {}
+    },
+    "counterweights": {
+      "stacked": {}
+    },
+    "on truck": {
+      "flatbed truck": {}
+    }
+  },
+  "buildings": {
+    "in background": {}
+  },
+  "trees": {
+    "bare": {}
+  }
+}

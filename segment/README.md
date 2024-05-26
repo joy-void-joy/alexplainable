@@ -1,0 +1,3 @@
+- create_segment_pickles: Create segment from Segment Anything Model in pickles
+- create_segment_images: Converts the segments from create_segment_pickles to images
+- tag_segment: sort the segments using LLaVA (does not work very well, might be better with claude and giving it the full image)
